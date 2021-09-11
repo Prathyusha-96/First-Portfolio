@@ -63,7 +63,7 @@ hr {
     }
     .hero {
         padding: 2rem;
-        padding-top: 5rem;
+        padding-top: 2rem;
     }
     .hero .hero-image {
         max-width: 350px;
@@ -86,9 +86,12 @@ hr {
     }
     
     .section {
-        padding: 2rem;
+        padding: 1rem;
+
     }
     .section h1 {
+        padding: 0.5rem;
+        padding-top: 1rem;
         text-align: center;
     }
     .ow {
