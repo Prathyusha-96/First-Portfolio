@@ -4,18 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>blogs</title>
+    <link href="styles.css" rel="stylesheet"/>
+    <title>Blogs</title>
+    
 </head>
 <body>
-    <section class="section">
-        <div class="container">
-            <p>Syntax of the var() Function
-                The var() function is used to insert the value of a CSS variable.
-                
-                The syntax of the var() function is as follows:
-                
-               <strong>var(--name, value)</strong></p>
-        </div>
-    </section>
+    <div style="font-size: larger; padding: 1rem; padding-bottom: 1rem; 
+     background-color: silver; text-align:center; display: block;">
+     <h2>CSS Variables</h2>
+    <p>
+    Syntax of the var() Function
+    The var() function is used to insert the value of a CSS variable.
+    The syntax of the var() function is as follows:
+    <strong>var(--name, value)</strong>
+    name:	Required. The variable name (must start with two dashes)
+    value:	Optional. The fallback value (used if the variable is not found)
+    Note: The variable name must begin with two dashes (--) and it is case sensitive!
+ </p>
+    
+    
+    <h2>How var() Works</h2>
+    <p>First of all: CSS variables can have a global or local scope.
+
+        Global variables can be accessed/used through the entire document, while local variables can be used only inside the selector where it is declared.
+        
+        To create a variable with global scope, declare it inside the :root selector. The :root selector matches the document's root element.
+        
+        To create a variable with local scope, declare it inside the selector that is going to use it.
+        
+        The following example is equal to the example above, but here we use the var() function.
+        
+        First, we declare two global variables (--blue and --white). Then, we use the var() function to insert the value of the variables later in the style sheet:
+    </p>
+    <h2>Change Variables With JavaScript</h2>
+    <p>CSS variables have access to the DOM, 
+       which means that you can change them with JavaScript.
+       Here is an example of how you can create a script to display and change 
+       the --blue variable from the example used in the previous pages. For now, 
+    do not worry if you are not familiar with JavaScript.</p>
+
+    <h2>Overriding Global Variables With Local Variables</h2>
+    <p>From the previous page we have learned that global variables can be 
+    accessed/used through the entire document, while local variables can be 
+    used only inside the selector where it is declared.
+
+    </p>
+
+</div>
+
+ 
 </body>
 </html>
