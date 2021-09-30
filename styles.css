@@ -61,6 +61,17 @@ hr {
     .navigation .link-active {
         font-weight: bold;
     }
+    .mark {
+        text-align: center;
+        padding: 0.5rem;
+        margin: auto;
+        margin-bottom: 0.5rem;
+        background-color: var(--dark-gray);
+        color: white;
+        border: solid black;
+        border-radius: 0.5rem;
+        
+    }
     .hero {
         padding: 2rem;
         padding-top: 2rem;
